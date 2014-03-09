@@ -30,7 +30,7 @@ Load after jQuery:
 Decorate HTML with an iTunes track ID:
 
 ```html
-  <span data-track-id="569944991" class="glyphicon glyphicon-cog animated continuous rotateInOut"></span>
+<span data-track-id="569944991" class="glyphicon glyphicon-cog animated continuous rotateInOut"></span>
 ```
 
 Todo
