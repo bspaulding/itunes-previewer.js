@@ -5,6 +5,18 @@ itunes-previewer.js
 
 Mobile friendly, HTML5 audio previews of iTunes tracks. No extra JS required.
 
+Demo
+----
+
+[alisontrick.com/music](http://bspaulding.github.io/alisontrick.com/music.html)
+
+Dependencies
+------------
+
+itunes-previewer currently assumes the availability of the play, pause, and cog glyphicons packaged with Bootstrap 3.
+
+Optionally, it calls upon animations from animate.css, including a custom animation: ```rotateInOut```. A Pull Request to get this animation into Animate is in the works.
+
 Usage
 -----
 
@@ -18,10 +30,11 @@ Load after jQuery:
 Decorate HTML with an iTunes track ID:
 
 ```html
-  <span class="glyphicon glyphicon-cog animated continuous rotateInOut" data-track-id="569944991"></span>
+  <span data-track-id="569944991" class="glyphicon glyphicon-cog animated continuous rotateInOut"></span>
 ```
 
-Demo
+Todo
 ----
 
-[alisontrick.com/music](http://bspaulding.github.io/alisontrick.com/music.html)
+- rotateInOut PR for animate.css
+- extract requirement on animate.css and bootstrap's glyphicons
