@@ -24,7 +24,7 @@ Load after jQuery:
 
 ```html
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="https://github.com/bspaulding/itunes-previewer.js/raw/master/lib/itunes-previewer.js"</script>
+<script src="//github.com/bspaulding/itunes-previewer.js/raw/master/lib/itunes-previewer.js"</script>
 ```
 
 Decorate HTML with an iTunes track ID:
