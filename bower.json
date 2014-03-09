@@ -1,0 +1,26 @@
+{
+  "name": "itunes-previewer",
+  "version": "0.0.0",
+  "authors": [
+    "Bradley J. Spaulding <bradley.spaulding@motingo.com>"
+  ],
+  "description": "Mobile friendly, HTML5 audio previews of iTunes tracks. No extra JS required.",
+  "main": "itunes-previewer.js",
+  "keywords": [
+    "itunes",
+    "audio",
+    "preview"
+  ],
+  "license": "MIT",
+  "homepage": "http://bspaulding.github.io/itunes-previewer",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery":"~1.10.2"
+  }
+}
