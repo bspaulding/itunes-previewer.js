@@ -33,6 +33,12 @@ Decorate HTML with an iTunes track ID:
 <span data-track-id="569944991" class="glyphicon glyphicon-cog animated continuous rotateInOut"></span>
 ```
 
+Or your audio file's URL, if it's not on iTunes:
+
+```html
+<span data-audio-preview-url="/path/to/audio/file.m4a" class="glyphicon glyphicon-cog animated continuous rotateInOut"></span>
+```
+
 Todo
 ----
 
